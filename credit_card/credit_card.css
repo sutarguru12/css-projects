@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.card {
+  height: 250px;
+  width: 400px;
+  background-color: black;
+  border-radius: 30px;
+  padding: 20px 20px;
+}
+.logo {
+  width: 50px;
+  margin-right: 14px;
+}
+.company-name {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+}
+.chip {
+  width: 50px;
+  height: 50px;
+}
+header .company {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.card-no-text {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+.card-number {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+main {
+  margin-top: 30px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.user-name {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.expiry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.expiry h6 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+.expiry h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
